@@ -7,8 +7,8 @@ what you remember, this document wins.
 
 | Member | GitHub | Role |
 |---|---|---|
-| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Repo owner / final merge approval |
-| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Contributor |
+| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Project Manager & Backend Developer |
+| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Backend Developer |
 
 ## The 3 rules
 
