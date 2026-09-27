@@ -5,10 +5,15 @@ This is a solid work of Group 7: Mobile App
 
 ## Team
 
-| Member | GitHub | Role |
-|---|---|---|
-| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Project Manager & Backend Developer |
-| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Backend Developer |
+Group 7 — Mobile App
+
+| Member | Name | Role | Profile |
+|---|---|---|---|
+| [@NickBayer1026](https://github.com/NickBayer1026) | Nicholas Bayron | Project Manager & Backend Developer | [view](profiles/nickbayer1026.md) |
+| [@Uttoh18](https://github.com/Uttoh18) | Jetlee L. Uttoh | Backend Developer | [view](profiles/Uttoh18.md) |
+
+**Current focus:** both members are working on the backend parts of the system we are
+about to build — data models, APIs, and business logic.
 
 ## How we work
 
@@ -40,7 +45,10 @@ PowerPuffBoys/
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── docs/
 │   └── team-notes.md        shared scratchpad + conflict drill
-└── profiles/                one page per team member
+└── profiles/
+    ├── README.md            team profile exercise
+    ├── nickbayer1026.md     Nicholas Bayron
+    └── Uttoh18.md           Jetlee L. Uttoh
 ```
 
 ## Current status

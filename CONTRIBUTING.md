@@ -5,10 +5,10 @@ what you remember, this document wins.
 
 ## Team
 
-| Member | GitHub | Role |
+| Member | Name | Role |
 |---|---|---|
-| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Project Manager & Backend Developer |
-| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Backend Developer |
+| [@NickBayer1026](https://github.com/NickBayer1026) | Nicholas Bayron | Project Manager & Backend Developer |
+| [@Uttoh18](https://github.com/Uttoh18) | Jetlee L. Uttoh | Backend Developer |
 
 ## The 3 rules
 
