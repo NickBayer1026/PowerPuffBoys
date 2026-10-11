@@ -47,8 +47,8 @@ Open a Pull Request to `main`, fill in the template, and ask a teammate to revie
 
 | Member | Profile |
 |---|---|
-| NickBayer1026 | <!-- add link when merged --> |
-| Uttoh18 | <!-- add link when merged --> |
-| RaymartCalasang | <!-- add link when merged --> |
-| eulosbustamante | <!-- add link when merged --> |
-| clarkcadiente24-rgb | <!-- add link when merged --> |
+| NickBayer1026 | [nickbayer1026.md](nickbayer1026.md) |
+| Uttoh18 | [Uttoh18.md](Uttoh18.md) |
+| RaymartCalasang | [RaymartCalasang.md](RaymartCalasang.md) |
+| eulosbustamante | [eulosbustamante.md](eulosbustamante.md) |
+| clarkcadiente24-rgb | [clarkcadiente24-rgb.md](clarkcadiente24-rgb.md) |
