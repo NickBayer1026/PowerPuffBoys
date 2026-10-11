@@ -153,38 +153,26 @@ Last run of all four: **all passing** (2026-10-12).
 
 ---
 
-## 7. Git state
+## 7. Git state (updated 2026-10-12)
 
-- Branch (current): **`feature/backend-scaffold`** · base branch `main` is protected.
-- **Uncommitted / untracked:** `info.txt`, `docs/plan.md`, `docs/kickoff.md`, `README.md`,
-  `.gitignore`, `server/`, `client/`.
-- Untracked, **not ours** — leave alone: `docs/PROJECT PROPOSAL.docx`, `docs/PROJECT_PROPOSAL.txt`.
-- `.gitignore` covers `node_modules/`, `.env`, `server/data/*.db`, Flutter build output.
+Three branches are **committed and pushed** to `origin` — base branch `main` is protected:
 
-Suggested split into PRs (per `CONTRIBUTING.md`):
+| Branch | Commit | Contents |
+|---|---|---|
+| `docs/project-proposal` | `4d7fdeb` | `info.txt`, `docs/plan.md`, `docs/kickoff.md`, README, `.gitignore`, `profiles/`, this file |
+| `feature/backend-scaffold` | `063ebb0` | `server/` (Express + SQLite + JWT) |
+| `feature/flutter-client` | `8b44584` | `client/` (Flutter app) |
 
-```powershell
-# PR 1 — docs
-git stash -u
-git checkout main; git pull origin main
-git checkout -b docs/project-proposal
-git stash pop
-git add info.txt docs/plan.md docs/kickoff.md README.md .gitignore
-git commit -m "docs: add proposal, technical plan, and kickoff guide"
-git push -u origin docs/project-proposal
+**Open the 3 PRs in the GitHub web UI** (`gh` is not installed):
 
-# PR 2 — backend
-git checkout main; git checkout -b feature/backend-scaffold
-git add server
-git commit -m "feat: scaffold Express + SQLite backend with JWT auth"
-git push -u origin feature/backend-scaffold
+- https://github.com/NickBayer1026/PowerPuffBoys/compare/main...docs/project-proposal?expand=1
+- https://github.com/NickBayer1026/PowerPuffBoys/compare/main...feature/backend-scaffold?expand=1
+- https://github.com/NickBayer1026/PowerPuffBoys/compare/main...feature/flutter-client?expand=1
 
-# PR 3 — client
-git checkout main; git checkout -b feature/flutter-client
-git add client
-git commit -m "feat: scaffold Flutter client wired to the REST API"
-git push -u origin feature/flutter-client
-```
+The three branches touch disjoint files, so they merge cleanly in any order.
+
+**Local-only branch `integration/all`** merges all three so the whole workspace is runnable
+before the PRs land — **do not push it**. After the PRs merge: `git checkout main && git pull`.
 
 ---
 
@@ -220,7 +208,7 @@ threshold default **20%**.
 2. **Enable Developer Mode** (§5) before Android/desktop builds.
 3. *(Optional)* GitHub Actions workflow running `npm run smoke` on every PR.
 4. *(Optional)* Add `flutter_local_notifications` for the reminders feature (mobile only).
-5. Commit and open the PRs in §7.
+5. **Done** — the 3 branches are committed & pushed. Open the PRs from §7.
 
 ---
 
