@@ -1,6 +1,9 @@
 # PowerPuffBoys
 This is a solid work of Group 7: Mobile App
 
+> **New here? Read [`docs/kickoff.md`](docs/kickoff.md) first** — it's the project brief
+> and the setup guide in one file.
+
 ---
 
 ## Team
@@ -39,11 +42,16 @@ PowerPuffBoys/
 ├── .github/
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── docs/
+│   ├── kickoff.md           START HERE — brief + setup guide
+│   ├── plan.md              technical plan (ERD + API reference)
 │   └── team-notes.md        shared scratchpad + conflict drill
+├── server/                  Node + Express REST API (scaffolded + tested)
 └── profiles/                one page per team member
 ```
 
 ## Current status
 
-Repo scaffolding is in place. No application code yet — we are working through the
-Git/GitHub workflow as a group before building.
+Repo scaffolding and the **backend are in place**. The Node + Express REST API is
+scaffolded and verified (`npm run smoke` → 25/25 checks passing) with SQLite persistence
+and JWT auth. The Flutter client (`client/`) has not been started yet — that's the next
+milestone. See [`docs/kickoff.md`](docs/kickoff.md) to get set up.

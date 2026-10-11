@@ -58,7 +58,15 @@ target/
 Thumbs.db
 desktop.ini
 
+# ---- Local database ----  ClassMate SQLite (server-side, never commit)
+server/data/*.db
+server/data/*.db-journal
+*.sqlite
+
 # ---- Logs & OS cruft ----
 *.log
 npm-debug.log*
 yarn-debug.log*
+
+# ---- Office temp/lock files (Word/Excel) ----
+~$*
