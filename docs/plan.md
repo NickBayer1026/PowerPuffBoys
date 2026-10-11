@@ -257,11 +257,16 @@ offline sync, chat.
 
 | Area | Owner |
 |---|---|
-| Repo/PR reviews, DB schema, auth, core APIs | Nick |
-| Flutter client: scaffold, screens, API integration | Jetlee |
-| Shared | Schedule/attendance logic, testing on all 3 platforms |
+| Project management, repo/PR reviews, API design | Nick |
+| Backend APIs (auth, subjects, schedule, attendance, works, dashboard) | Nick |
+| Database schema, seed data, data integrity | Jetlee |
+| Flutter client: scaffold, screens, state, API integration | Jetlee + Clark |
+| UI/UX: wireframes, theme, usability | Eulos |
+| QA: test plan, cross-platform testing, bug reports | Raymart |
+| Shared | Schedule/attendance-summary logic; end-to-end testing |
 
-> Both members lean backend — Jetlee takes the Flutter client and Nick owns the API.
+> Five-person split — Nick runs the project and owns the API; Jetlee owns the database and
+> pairs on the client; Clark is a third developer; Eulos owns UI/UX; Raymart owns QA.
 > We pair on the attendance-summary logic because it spans both sides.
 
 ---
@@ -281,7 +286,7 @@ offline sync, chat.
 | Risk | Mitigation |
 |---|---|
 | 4 weeks is short | Hard MVP line in §6; stretch features get dropped first |
-| Two backends, no dedicated front-end dev | Jetlee owns Flutter; Nick unblocks the API early |
+| Five contributors editing one codebase → merge conflicts | One branch per task; small, focused PRs; QA (Raymart) checks before merge |
 | Attendance summary logic inconsistent | Pair-program the endpoint; single source of truth = computed |
 | Reminders flaky | Ship in-app "due soon" list as the guaranteed fallback |
 | Cross-platform bugs late | Verify on Android + Web + Windows at the end of Week 3, not Week 4 |

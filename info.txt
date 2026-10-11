@@ -2,8 +2,11 @@ PROJECT PROPOSAL
 Project Title: ClassMate — Cross-Platform Attendance, Schedule & School Works Tracker
 Submitted By: Group 7 (PowerPuffBoys)
 Member/Role:
-  Nicholas Bayron — Project Manager & Backend Developer
-  Jetlee L. Uttoh — Backend Developer & Client Integration
+  Nicholas Bayron — Project Manager & Developer
+  Jetlee L. Uttoh — Developer & Database
+  Raymart Q. Calasang — Quality Assurance
+  Eulos E. Diaz — UI/UX Design
+  Clark B. Cadiente — Developer
 Submitted To: [Instructor Name]
 Date: October 12, 2026
 

@@ -38,7 +38,8 @@ Health check: `http://localhost:3000/api/health` → `{"status":"ok",...}`
 one-tap **attendance** (with absence % and at-risk warnings), and **school works**
 (assignments/quizzes/exams with due dates). One account across Mobile, Web, and Desktop.
 
-- Team: **Nick** (PM / backend, repo owner) · **Jetlee** (backend / Flutter client)
+- Team (5): **Nick** (PM · API, repo owner) · **Jetlee** (developer · database) ·
+  **Clark** (developer) · **Eulos** (UI/UX) · **Raymart** (QA)
 - Timeline: **4 weeks**, started 2026-10-12, demo target **2026-11-09**
 - Stack: **Flutter** client · **Node + Express** API · **SQLite** · **JWT auth**
 

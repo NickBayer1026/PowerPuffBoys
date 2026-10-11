@@ -10,8 +10,11 @@ This is a solid work of Group 7: Mobile App
 
 | Member | GitHub | Role |
 |---|---|---|
-| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Repo owner / final merge approval |
-| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Contributor |
+| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Project Manager · Developer (repo owner) |
+| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Developer · Database |
+| RaymartCalasang | [@RaymartCalasang](https://github.com/RaymartCalasang) | Quality Assurance |
+| eulosbustamante | [@eulosbustamante](https://github.com/eulosbustamante) | UI/UX Design |
+| clarkcadiente24-rgb | [@clarkcadiente24-rgb](https://github.com/clarkcadiente24-rgb) | Developer |
 
 ## How we work
 
@@ -46,12 +49,14 @@ PowerPuffBoys/
 │   ├── plan.md              technical plan (ERD + API reference)
 │   └── team-notes.md        shared scratchpad + conflict drill
 ├── server/                  Node + Express REST API (scaffolded + tested)
+├── client/                  Flutter app (all platforms, wired to the API)
 └── profiles/                one page per team member
 ```
 
 ## Current status
 
-Repo scaffolding and the **backend are in place**. The Node + Express REST API is
-scaffolded and verified (`npm run smoke` → 25/25 checks passing) with SQLite persistence
-and JWT auth. The Flutter client (`client/`) has not been started yet — that's the next
-milestone. See [`docs/kickoff.md`](docs/kickoff.md) to get set up.
+Repo scaffolding, the **backend**, and the **Flutter client** are all in place. The
+Node + Express REST API is verified (`npm run smoke` → 25/25 checks passing) with SQLite
+persistence and JWT auth, and the Flutter client (`client/`) is wired to it with login,
+dashboard, schedule, attendance, school-works, and subjects screens (verified on Web).
+See [`docs/kickoff.md`](docs/kickoff.md) to get set up.

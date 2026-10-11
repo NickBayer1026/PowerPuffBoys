@@ -49,3 +49,6 @@ Open a Pull Request to `main`, fill in the template, and ask a teammate to revie
 |---|---|
 | NickBayer1026 | <!-- add link when merged --> |
 | Uttoh18 | <!-- add link when merged --> |
+| RaymartCalasang | <!-- add link when merged --> |
+| eulosbustamante | <!-- add link when merged --> |
+| clarkcadiente24-rgb | <!-- add link when merged --> |

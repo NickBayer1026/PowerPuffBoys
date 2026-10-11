@@ -2,7 +2,7 @@
 
 **GitHub:** [@Uttoh18](https://github.com/Uttoh18)
 
-**Role on the team:** Backend Developer
+**Role on the team:** Developer & Database
 
 **What I'm working on:** Implementing and maintaining the backend components of the system
 we're about to build, including data models, APIs, and business logic.

@@ -190,12 +190,17 @@ git push -u origin feature/my-task               # then open a PR
 
 | Area | Owner |
 |---|---|
-| Repo/PR reviews, DB schema, auth, core APIs | Nick |
-| Flutter client — screens, API integration | Jetlee |
-| Shared | Attendance summary logic, testing on all 3 platforms |
+| Project management, repo/PR reviews, API design | Nick |
+| Backend APIs (auth, subjects, schedule, attendance, works, dashboard) | Nick |
+| Database schema, seed data, data integrity | Jetlee |
+| Flutter client — screens, state, API integration | Jetlee + Clark |
+| UI/UX — wireframes, theme, usability | Eulos |
+| QA — test plan, cross-platform testing, bug reports | Raymart |
+| Shared | Attendance-summary logic; end-to-end testing on all platforms |
 
-> Both of us lean backend, so Jetlee takes the Flutter client and Nick owns the API.
-> We pair on attendance logic because it spans both sides.
+> Five-person split: Nick runs the project and owns the API; Jetlee owns the database and
+> pairs on the client; Clark is a third developer; Eulos owns UI/UX; Raymart owns QA.
+> Attendance logic is paired because it spans client and server.
 
 ---
 
