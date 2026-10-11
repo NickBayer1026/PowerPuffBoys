@@ -160,9 +160,12 @@ Three branches are **committed and pushed** to `origin` — base branch `main` i
 
 | Branch | Commit | Contents |
 |---|---|---|
-| `docs/project-proposal` | `4d7fdeb` | `info.txt`, `docs/plan.md`, `docs/kickoff.md`, README, `.gitignore`, `profiles/`, this file |
+| `docs/project-proposal` | `fa4810e` | `info.txt`, `docs/plan.md`, `docs/kickoff.md`, README, `.gitignore`, `profiles/`, team roster (5 members), this file |
 | `feature/backend-scaffold` | `063ebb0` | `server/` (Express + SQLite + JWT) |
 | `feature/flutter-client` | `8b44584` | `client/` (Flutter app) |
+
+> The `docs/project-proposal` hash is its roster commit; each refresh of this resume
+> file adds one commit on top of it.
 
 **Open the 3 PRs in the GitHub web UI** (`gh` is not installed):
 
