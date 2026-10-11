@@ -1,6 +1,6 @@
 # Contributing to PowerPuffBoys
 
-Group 7 — Mobile App. This document is the rulebook. If something here disagrees with
+Group 7 - Mobile App. This document is the rulebook. If something here disagrees with
 what you remember, this document wins.
 
 ## Team
@@ -13,11 +13,12 @@ what you remember, this document wins.
 | eulosbustamante | [@eulosbustamante](https://github.com/eulosbustamante) | UI/UX Design |
 | clarkcadiente24-rgb | [@clarkcadiente24-rgb](https://github.com/clarkcadiente24-rgb) | Developer |
 
-## The 3 rules
+## The 4 rules
 
-1. **Never commit directly to `main`.** `main` is protected — GitHub will block the push.
+1. **Never commit directly to `main`.** `main` is protected, GitHub will block the push.
 2. **One branch per task.** Branch name describes the task.
 3. **Never merge your own PR.** Someone else reviews and approves it.
+4. **Always follow rule 1.** 
 
 ## Setup (one time per machine)
 
