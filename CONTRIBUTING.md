@@ -7,8 +7,11 @@ what you remember, this document wins.
 
 | Member | GitHub | Role |
 |---|---|---|
-| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Repo owner / final merge approval |
-| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Contributor |
+| NickBayer1026 | [@NickBayer1026](https://github.com/NickBayer1026) | Project Manager · Developer — repo owner / final merge approval |
+| Uttoh18 | [@Uttoh18](https://github.com/Uttoh18) | Developer · Database |
+| RaymartCalasang | [@RaymartCalasang](https://github.com/RaymartCalasang) | Quality Assurance |
+| eulosbustamante | [@eulosbustamante](https://github.com/eulosbustamante) | UI/UX Design |
+| clarkcadiente24-rgb | [@clarkcadiente24-rgb](https://github.com/clarkcadiente24-rgb) | Developer |
 
 ## The 3 rules
 
